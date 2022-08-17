@@ -21,6 +21,11 @@ body {
     display: grid;
 }
 
+
+.bg-navegacion{
+    background-color: rgb(207, 207, 166);
+}
+
 /*BARRA DE NAVEGACION*/
 
 header {
