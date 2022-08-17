@@ -61,6 +61,24 @@ header {
 
 /*FIN BARRA DE NAVEGACION*/
 
+/* BOOSTRAP*/
+.titulo-busqueda{
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+.carousel-inner{
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.col-4{
+    margin-top: 100px;
+    padding: 70px;
+    font-size: 2rem;
+}
+/* FIN DE BOOSTRAP*/
+
 
 .main {
     margin: 6rem 1.5rem 2rem;
