@@ -5,61 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Galeria</title>
 </head>
 
 <body>
     <!-- encabezado -->
-    <header class="flex-container">
-        <h1>ZIDDESIGN</h1>
-        <nav class="nav">
-            <ul class="nav-menu flex-container">
-                <li class="nav-menu-item"><a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-menu-item"><a class="nav-link" href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-menu-item"><a class="nav-link" href="./productos.html">Productos</a>
-                </li>
-                <li class="nav-menu-item"><a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-                <li class="nav-menu-item"><a class="nav-link" href="#">Galeria</a>
-                </li>
-                <li class="nav-menu-item"><a class="nav-link" href="./productos.html">Busqueda</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">ZIDDESIGN</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-sm-0">
+                            <li class="nav-item me-lg-5">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item me-lg-5">
+                                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item me-lg-5">
+                                <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item me-lg-5">
+                                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item me-lg-5">
+                                <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+                            </li>
+                            <li class="nav-item me-lg-5">
+                                <a class="nav-link active" aria-current="page" href="./Busqueda.html">Busqueda</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <!-- fin encabezado -->
-    <!-- contenido principal -->
-    <main class="main">
-        <section class="galeria grid-container">
-            <h2 id="h2g">Galeria</h2>
-            <img id="imgg01" class="imgg" src="../img/espartano02.jpg" alt=" Imagen de juego de 
-            ajedrez espartano, colores blanco y negro ">
-            <img id="imgg02" class="imgg" src="../img/espartano04.jpg" alt=" Imagen juego de 
-            ajedrez espartano, colores blanco y negro ">
-            <img id="imgg03" class="imgg" src="../img/mecanico01.jpg" alt=" Imagen juego de 
-            ajedrez espartano, colores cobre y negro ">
-            <img id="imgg04" class="imgg" src="../img/mecanico02.jpg" alt=" Imagen juego de 
-            ajedrez espartano, cobre y negro ">
-            <img id="imgg05" class="imgg" src="../img/mecanico03.jpg" alt=" Imagen juego de 
-            ajedrez espartano, cobre y negro ">
-            <img id="imgg06" class="imgg" src="../img/Torsion.jpg" alt=" Imagen de juego de 
-            ajedrez espartano, color negro ">
-            <img id="imgg07" class="imgg" src="../img/Torsion01.jpg" alt=" Imagen de juego de 
-            ajedrez espartano, colore blanco ">
-            <img id="imgg08" class="imgg" src="../img/Trofeo01.jpg" alt=" Imagen trofeo de 
-            ajedrez espartano, colores blanco y negro ">
-            <img id="imgg09" class="imgg" src="../img/Trofeo02.jpg" alt=" Imagen trofeo de 
-            ajedrez espartano, colores blanco y negro ">
-        </section>
-    </main>
-    <!-- fin de contenido -->
+
+        <!-- contenido principal -->
+        <main class="main">
+            <section class="galeria grid-container">
+                <h2 id="h2g">Galeria</h2>
+                <img id="imgg01" class="imgg" src="../img/espartano02.jpg" alt=" Imagen de juego de 
+                ajedrez espartano, colores blanco y negro ">
+                <img id="imgg02" class="imgg" src="../img/espartano04.jpg" alt=" Imagen juego de 
+                ajedrez espartano, colores blanco y negro ">
+                <img id="imgg03" class="imgg" src="../img/mecanico01.jpg" alt=" Imagen juego de 
+                ajedrez espartano, colores cobre y negro ">
+                <img id="imgg04" class="imgg" src="../img/mecanico02.jpg" alt=" Imagen juego de 
+                ajedrez espartano, cobre y negro ">
+                <img id="imgg05" class="imgg" src="../img/mecanico03.jpg" alt=" Imagen juego de 
+                ajedrez espartano, cobre y negro ">
+                <img id="imgg06" class="imgg" src="../img/Torsion.jpg" alt=" Imagen de juego de 
+                ajedrez espartano, color negro ">
+                <img id="imgg07" class="imgg" src="../img/Torsion01.jpg" alt=" Imagen de juego de 
+                ajedrez espartano, colore blanco ">
+                <img id="imgg08" class="imgg" src="../img/Trofeo01.jpg" alt=" Imagen trofeo de 
+                ajedrez espartano, colores blanco y negro ">
+                <img id="imgg09" class="imgg" src="../img/Trofeo02.jpg" alt=" Imagen trofeo de 
+                ajedrez espartano, colores blanco y negro ">
+            </section>
+        </main>
+        <!-- fin de contenido -->
+
     <!-- footer -->
     <footer>
         <p> Todos los derechos reservados - César Sebastián Zelarayán </p>
     </footer>
+    <!-- fin footer -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
