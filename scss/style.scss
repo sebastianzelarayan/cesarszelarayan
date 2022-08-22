@@ -1,0 +1,59 @@
+@import "utilities/variables";
+
+
+//NESTING
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $color-secundario;
+    background-color: $color-main;
+}
+
+header{
+    background-color: $color-header;
+    position: fixed;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    .row{
+        nav{
+            color: $color-header;
+            text-decoration: none;
+            ul{
+                li{
+                    list-style: none;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+main{
+    background-color: $color-main;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        color: $color-tipografia;
+        font-size: 3rem;
+        text-align: center;
+    }
+    h3{
+        color: $color-tipografia;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+
+footer{
+    background-color: $color-footer;
+    p{
+        color: $color-tipografia;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+
