@@ -34,12 +34,10 @@ main {
   margin: 3rem 1.5rem 2rem; }
   main .inicio h2 {
     color: #fcfafa;
-    font-size: 3rem;
-    text-align: center; }
+    font-size: 2rem; }
   main .inicio h3 {
     color: #fcfafa;
-    font-size: 1.7rem;
-    text-align: center; }
+    font-size: 1rem; }
   main .inicio .img011 {
     width: 90%;
     height: auto; }
