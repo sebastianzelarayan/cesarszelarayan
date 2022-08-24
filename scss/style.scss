@@ -44,35 +44,23 @@ header{
 }
 
 main{
-    
-    background-color: $color-main;
-    flex-direction: column;
-    align-items: center;
-    margin: 3rem 1.5rem 2rem;
-    .inicio{
+    margin: 6rem 1.5rem 2rem;
     h2{
-        color: $color-tipografia;
-        font-size: 3rem;
-        text-align: center;
+        font-size: 2rem;
     }
     h3{
-        color: $color-tipografia;
-        font-size: 1.7rem;
-        text-align: center;
+        font-size: 1rem;
     }
     .img011{
-        width: 90%;
+        width: 100%;
         height: auto;
-    }
     }
 }
 
 footer{
     background-color: $color-footer;
     p{
-        color: $color-tipografia;
         font-size: 1rem;
-        text-align: center;
     }
 }
 
