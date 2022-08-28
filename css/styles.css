@@ -50,6 +50,7 @@ body {
     .nosotros .desc {
       grid-column: 1/2; }
     .nosotros .h1n {
+      text-align: center;
       font-size: 2rem; }
     .nosotros #pnosotros {
       grid-column: 1/2;
@@ -82,25 +83,35 @@ body {
     .nosotros #img05 {
       grid-column: 1/2; }
     .nosotros #h1p {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      text-align: center; }
     .nosotros #h2p {
       grid-column: 1/2;
-      font-size: 1rem; }
+      font-size: 1rem;
+      text-align: center;
+      text-align: center; }
     .nosotros #h2p02 {
       grid-column: 1/2;
       font-size: 1rem;
-      margin: 10px 0px; }
+      margin: 10px 0px;
+      text-align: center; }
     .nosotros #pp01 {
       grid-column: 1/2;
       font-size: 0.8rem;
-      margin: 29px; }
+      margin: 29px;
+      text-align: center; }
     .nosotros #pp02 {
       grid-column: 1/2;
       font-size: 0.8rem;
-      margin: 29px; }
+      margin: 29px;
+      text-align: center; }
     .nosotros .contacto {
       flex-direction: column;
       align-items: center; }
+    .nosotros h1 {
+      color: #fcfafa;
+      font-size: 2.6rem;
+      text-align: center; }
     .nosotros .form {
       flex-direction: column;
       margin: 2rem 0 4rem;
@@ -163,7 +174,8 @@ body {
       width: 80%;
       height: auto; }
     .nosotros #h2g {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      text-align: center; }
     .nosotros #imgg01 {
       grid-column: 1/2; }
     .nosotros #imgg02 {

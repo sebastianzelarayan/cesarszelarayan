@@ -75,6 +75,7 @@ main{
         grid-column: 1/2;
     }
     .h1n{
+        text-align: center;
         font-size: 2rem;
     }
     #pnosotros{
@@ -121,30 +122,41 @@ main{
     }
     #h1p{
         grid-column: 1/2;
+        text-align: center;
     }
     #h2p{
         grid-column: 1/2;
         font-size: 1rem;
+        text-align: center;
+        text-align: center;
     }
     #h2p02{
         grid-column: 1/2;
         font-size: 1rem;
         margin: 10px 0px;
+        text-align: center;
     }
     #pp01{
         grid-column: 1/2;
         font-size: 0.8rem;
         margin: 29px;
+        text-align: center;
     }
     #pp02{
         grid-column: 1/2;
         font-size: 0.8rem;
         margin: 29px;
+        text-align: center;
     }
 
     .contacto {
         flex-direction: column;
         align-items: center;
+    }
+    h1{
+        color: $color-tipografia;
+        font-size: 2.6rem;
+        text-align: center;
     }
     .form {
         flex-direction: column;
@@ -227,6 +239,7 @@ main{
     }
     #h2g {
         grid-column: 1/2;
+        text-align: center;
     }
     #imgg01 {
         grid-column: 1/2;
