@@ -64,6 +64,201 @@ main{
     }
 }
 
+.nosotros{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    .imgn{
+        width: 90%;
+        height: auto;
+    }
+    .desc{
+        grid-column: 1/2;
+    }
+    .h1n{
+        font-size: 2rem;
+    }
+    #pnosotros{
+        grid-column: 1/2;
+        font-size: 1rem;
+        padding: 20px;
+    }
+    .video{
+        width: 90%;
+        height: auto;
+    }
+    #video1{
+        grid-column: 1/2;
+        margin: 0px auto;
+    }
+    #video2{
+        grid-column: 1/2;
+        margin: 0px auto;
+    }
+
+    .productos{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(10, auto);
+    }
+    .imgp{
+        width: 80%;
+        height: auto;
+        margin: 10px;
+    }
+    #imgp01{
+        grid-column: 1/2;
+    }
+    #imgp02{
+        grid-column: 1/2;
+    }
+    #imgp03{
+        grid-column: 1/2;
+    }
+    #imgp04{
+        grid-column: 1/2;
+    }
+    #img05{
+        grid-column: 1/2;
+    }
+    #h1p{
+        grid-column: 1/2;
+    }
+    #h2p{
+        grid-column: 1/2;
+        font-size: 1rem;
+    }
+    #h2p02{
+        grid-column: 1/2;
+        font-size: 1rem;
+        margin: 10px 0px;
+    }
+    #pp01{
+        grid-column: 1/2;
+        font-size: 0.8rem;
+        margin: 29px;
+    }
+    #pp02{
+        grid-column: 1/2;
+        font-size: 0.8rem;
+        margin: 29px;
+    }
+
+    .contacto {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form {
+        flex-direction: column;
+        margin: 2rem 0 4rem;
+        align-items: center;
+        padding: 40px;
+        font-size: 1.2rem;
+        border: 2px solid rgb(236, 236, 106);
+        border-radius: 5px;
+    }
+    #nombre {
+        background-color: rgb(236, 236, 106);
+        border-radius: 3px;
+        padding: 3px;
+    }
+    #cel {
+        background-color: rgb(236, 236, 106);
+        border-radius: 3px;
+        padding: 3px;
+    }
+    #comentarios {
+        background-color: rgb(236, 236, 106);
+        border-radius: 3px;
+        padding: 3px;
+    }
+    .buttons {
+        padding-top: 20px;
+    }
+    .btn1 {
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 5px;
+        margin: 1rem;
+        background-color: rgb(236, 236, 106);
+    }
+    .redes {
+        text-align: center;
+    }
+    .redes p {
+        font-size: 1.2rem;
+    }
+    .fa-brands:hover {
+        transform: scale(1.2);
+        transition: all 0.30s;
+    }
+    #face {
+        height: 10px;
+        color: #4267B2;
+    }
+    #insta {
+        height: 10px;
+        color: rgb(225, 48, 108);
+    }
+    #yt {
+        height: 10px;
+        color: #FF0000;
+    }
+    #wpp {
+        height: 10px;
+        color: #25D366;
+    }
+    #twt {
+        height: 10px;
+        color: #1da1f2;
+    }
+    #map {
+        width: 20rem;
+        height: 20rem;
+        border: 5px solid black;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, auto);
+        gap: 20px;
+    }
+    .imgg {
+        width: 80%;
+        height: auto;
+    }
+    #h2g {
+        grid-column: 1/2;
+    }
+    #imgg01 {
+        grid-column: 1/2;
+    }
+    #imgg02 {
+        grid-column: 1/2;
+    }
+    #imgg03 {
+        grid-column: 1/2;
+    }
+    #imgg04 {
+        grid-column: 1/2;
+    }
+    #imgg05 {
+        grid-column: 1/2;
+    }
+    #imgg06 {
+        grid-column: 1/2;
+    }
+    #imgg07 {
+        grid-column: 1/2;
+    }
+    #imgg08 {
+        grid-column: 1/2;
+    }
+    #imgg09 {
+        grid-column: 1/2;
+    }
+    
+
+}
+
 footer{
     background-color: $color-footer;
     p{
