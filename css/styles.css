@@ -44,9 +44,6 @@ body {
   .nosotros {
     grid-template-columns: auto;
     grid-template-rows: repeat(5, auto); }
-    .nosotros .imgn {
-      width: 90%;
-      height: auto; }
     .nosotros .desc {
       grid-column: 1/2; }
     .nosotros .h1n {
@@ -56,6 +53,9 @@ body {
       grid-column: 1/2;
       font-size: 1rem;
       padding: 20px; }
+    .nosotros .imgn {
+      width: 90%;
+      height: auto; }
     .nosotros .video {
       width: 90%;
       height: auto; }
@@ -70,23 +70,22 @@ body {
       grid-template-rows: repeat(10, auto); }
     .nosotros .imgp {
       width: 80%;
-      height: auto;
-      margin: 10px; }
+      height: auto; }
     .nosotros #imgp01 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgp02 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgp03 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgp04 {
       grid-column: 1/2;
       margin: 20px 0px; }
     .nosotros #img05 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #h1p {
       grid-column: 1/2;
       color: #fcfafa;
@@ -186,31 +185,31 @@ body {
       text-align: center; }
     .nosotros #imgg01 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgg02 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgg03 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgg04 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgg05 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgg06 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgg07 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgg08 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
     .nosotros #imgg09 {
       grid-column: 1/2;
-      margin: 20px 0px; }
+      padding: 20px; }
   footer {
     background-color: #807c7c; }
     footer p {
