@@ -74,22 +74,28 @@ body {
       height: auto;
       margin: 10px; }
     .nosotros #imgp01 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgp02 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgp03 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgp04 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #img05 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #h1p {
       grid-column: 1/2;
+      color: #fcfafa;
+      font-size: 2.6rem;
       text-align: center; }
     .nosotros #h2p {
       grid-column: 1/2;
       font-size: 1rem;
-      text-align: center;
       text-align: center; }
     .nosotros #h2p02 {
       grid-column: 1/2;
@@ -176,25 +182,36 @@ body {
       height: auto; }
     .nosotros #h2g {
       grid-column: 1/2;
+      color: #fcfafa;
+      font-size: 2.6rem;
       text-align: center; }
     .nosotros #imgg01 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgg02 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgg03 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgg04 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgg05 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgg06 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgg07 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgg08 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
     .nosotros #imgg09 {
-      grid-column: 1/2; }
+      grid-column: 1/2;
+      margin: 20px 0px; }
   footer {
     background-color: #807c7c; }
     footer p {
