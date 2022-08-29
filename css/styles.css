@@ -47,17 +47,7 @@ body {
   /* nosotros @media */
   .nosotros {
     grid-template-columns: auto;
-    grid-template-rows: repeat(5, auto);
-    /* fin nosotros @media */
-    /* producto @media */
-    /* fin producto @media */
-    /* contacto @media */
-    /* formulario */
-    /* fin formulario */
-    /* redes */
-    /* fin redes */
-    /* fin contacto @media */
-    /* galeria @media */ }
+    grid-template-rows: repeat(5, auto); }
     .nosotros .desc {
       grid-column: 1/2; }
     .nosotros .h1n {
@@ -79,164 +69,176 @@ body {
     .nosotros #video2 {
       grid-column: 1/2;
       margin: 0px auto; }
-    .nosotros .productos {
-      grid-template-columns: auto;
-      grid-template-rows: repeat(10, auto); }
-    .nosotros .imgp {
-      width: 80%;
-      height: auto; }
-    .nosotros #imgp01 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgp02 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgp03 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgp04 {
-      grid-column: 1/2;
-      margin: 20px 0px; }
-    .nosotros #img05 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #h1p {
-      grid-column: 1/2;
-      color: #fcfafa;
-      font-size: 2.6rem;
-      text-align: center; }
-    .nosotros #h2p {
-      grid-column: 1/2;
-      font-size: 1rem;
-      text-align: center; }
-    .nosotros #h2p02 {
-      grid-column: 1/2;
-      font-size: 1rem;
-      margin: 10px 0px;
-      text-align: center; }
-    .nosotros #pp01 {
-      grid-column: 1/2;
-      font-size: 0.8rem;
-      margin: 29px;
-      text-align: center; }
-    .nosotros #pp02 {
-      grid-column: 1/2;
-      font-size: 0.8rem;
-      margin: 29px;
-      text-align: center; }
-    .nosotros .contacto {
-      flex-direction: column;
-      align-items: center; }
-    .nosotros h1 {
-      color: #fcfafa;
-      font-size: 2.6rem; }
-    .nosotros .form {
-      flex-direction: column;
-      margin: 2rem 0 4rem;
-      align-items: center;
-      padding: 40px;
-      font-size: 1.2rem;
-      border: 2px solid #ecec6a;
-      border-radius: 5px; }
-    .nosotros #nombre {
-      background-color: #ecec6a;
-      border-radius: 3px;
-      padding: 3px; }
-    .nosotros #cel {
-      background-color: #ecec6a;
-      border-radius: 3px;
-      padding: 3px; }
-    .nosotros #mail {
-      background-color: #ecec6a;
-      border-radius: 3px;
-      padding: 3px; }
-    .nosotros #comentarios {
-      background-color: #ecec6a;
-      border-radius: 3px;
-      padding: 3px; }
-    .nosotros .buttons {
-      padding-top: 20px; }
-    .nosotros .btn1 {
-      border: 1px solid black;
-      border-radius: 3px;
-      padding: 5px;
-      margin: 1rem;
-      background-color: #ecec6a; }
-    .nosotros .fa-brands {
-      padding: 50px;
-      font-size: 4rem;
-      text-align: center; }
-    .nosotros .redes {
-      text-align: center; }
-    .nosotros .redes p {
-      font-size: 1.2rem; }
-    .nosotros .fa-brands:hover {
-      transform: scale(1.2);
-      transition: all 0.30s; }
-    .nosotros #face {
-      height: 10px;
-      color: #4267B2; }
-    .nosotros #insta {
-      height: 10px;
-      color: #e1306c; }
-    .nosotros #yt {
-      height: 10px;
-      color: #FF0000; }
-    .nosotros #wpp {
-      height: 10px;
-      color: #25D366; }
-    .nosotros #twt {
-      height: 10px;
-      color: #1da1f2; }
-    .nosotros #map {
-      width: 20rem;
-      height: 20rem;
-      border: 5px solid black; }
-    .nosotros .galeria {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(10, auto);
-      gap: 20px; }
-    .nosotros .imgg {
-      width: 80%;
-      height: auto; }
-    .nosotros #h2g {
-      grid-column: 1/2;
-      color: #fcfafa;
-      font-size: 2.6rem;
-      text-align: center; }
-    .nosotros #imgg01 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgg02 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgg03 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgg04 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgg05 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgg06 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgg07 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgg08 {
-      grid-column: 1/2;
-      padding: 20px; }
-    .nosotros #imgg09 {
-      grid-column: 1/2;
-      padding: 20px; }
-  /* fin galeria @media */
-  /* footer @media */
-  footer {
-    background-color: #807c7c; }
-    footer p {
-      color: #fcfafa;
-      font-size: 1rem;
-      text-align: center; }
-  /* fin footer @media */ }
+  /* fin nosotros @media */
+  /* producto @media */
+  .productos {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(10, auto); }
+  .imgp {
+    width: 80%;
+    height: auto; }
+  #imgp01 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgp02 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgp03 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgp04 {
+    grid-column: 1/2;
+    margin: 20px 0px; }
+  #img05 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #h1p {
+    grid-column: 1/2;
+    color: #fcfafa;
+    font-size: 2.6rem;
+    text-align: center; }
+  #h2p {
+    grid-column: 1/2;
+    font-size: 1rem;
+    text-align: center; }
+  #h2p02 {
+    grid-column: 1/2;
+    font-size: 1rem;
+    margin: 10px 0px;
+    text-align: center; }
+  #pp01 {
+    grid-column: 1/2;
+    font-size: 0.8rem;
+    margin: 29px;
+    text-align: center; }
+  #pp02 {
+    grid-column: 1/2;
+    font-size: 0.8rem;
+    margin: 29px;
+    text-align: center; }
+  /* fin producto @media */
+  /* contacto @media */
+  .contacto {
+    flex-direction: column;
+    align-items: center; }
+  h1 {
+    color: #fcfafa;
+    font-size: 2.6rem; }
+  /* formulario */
+  .form {
+    flex-direction: column;
+    margin: 2rem 0 4rem;
+    align-items: center;
+    padding: 40px;
+    font-size: 1.2rem;
+    border: 2px solid #ecec6a;
+    border-radius: 5px; }
+  #nombre {
+    background-color: #ecec6a;
+    border-radius: 3px;
+    padding: 3px; }
+  #cel {
+    background-color: #ecec6a;
+    border-radius: 3px;
+    padding: 3px; }
+  #mail {
+    background-color: #ecec6a;
+    border-radius: 3px;
+    padding: 3px; }
+  #comentarios {
+    background-color: #ecec6a;
+    border-radius: 3px;
+    padding: 3px; }
+  .buttons {
+    padding-top: 20px; }
+  .btn1 {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 1rem;
+    background-color: #ecec6a; }
+  /* fin formulario */
+  /* redes */
+  .fa-brands {
+    padding: 50px;
+    font-size: 4rem;
+    text-align: center; }
+  .redes {
+    text-align: center; }
+  .redes p {
+    font-size: 1.2rem; }
+  .fa-brands:hover {
+    transform: scale(1.2);
+    transition: all 0.30s; }
+  #face {
+    height: 10px;
+    color: #4267B2; }
+  #insta {
+    height: 10px;
+    color: #e1306c; }
+  #yt {
+    height: 10px;
+    color: #FF0000; }
+  #wpp {
+    height: 10px;
+    color: #25D366; }
+  #twt {
+    height: 10px;
+    color: #1da1f2; }
+  /* fin redes */
+  #map {
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid black; }
+  /* fin contacto @media */
+  /* galeria @media */
+  .galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, auto);
+    gap: 20px; }
+  .imgg {
+    width: 80%;
+    height: auto; }
+  #h2g {
+    grid-column: 1/2;
+    color: #fcfafa;
+    font-size: 2.6rem;
+    text-align: center; }
+  #imgg01 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgg02 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgg03 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgg04 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgg05 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgg06 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgg07 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgg08 {
+    grid-column: 1/2;
+    padding: 20px; }
+  #imgg09 {
+    grid-column: 1/2;
+    padding: 20px; } }
+
+/* fin galeria @media */
+/* footer @media */
+footer {
+  background-color: #807c7c; }
+  footer p {
+    color: #fcfafa;
+    font-size: 1rem;
+    text-align: center; }
+
+/* fin footer @media */
