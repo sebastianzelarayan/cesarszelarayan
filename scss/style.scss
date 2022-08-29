@@ -162,7 +162,6 @@ main{
     h1{
         color: $color-tipografia;
         font-size: 2.6rem;
-        text-align: center;
     }
     .form {
         flex-direction: column;
@@ -170,21 +169,26 @@ main{
         align-items: center;
         padding: 40px;
         font-size: 1.2rem;
-        border: 2px solid rgb(236, 236, 106);
+        border: 2px solid $color-header;
         border-radius: 5px;
     }
     #nombre {
-        background-color: rgb(236, 236, 106);
+        background-color: $color-header;
         border-radius: 3px;
         padding: 3px;
     }
     #cel {
-        background-color: rgb(236, 236, 106);
+        background-color: $color-header;
+        border-radius: 3px;
+        padding: 3px;
+    }
+    #mail{
+        background-color: $color-header;
         border-radius: 3px;
         padding: 3px;
     }
     #comentarios {
-        background-color: rgb(236, 236, 106);
+        background-color: $color-header;
         border-radius: 3px;
         padding: 3px;
     }
@@ -196,7 +200,12 @@ main{
         border-radius: 3px;
         padding: 5px;
         margin: 1rem;
-        background-color: rgb(236, 236, 106);
+        background-color: $color-header;
+    }
+    .fa-brands{
+        padding: 50px;
+        font-size: 4rem;
+        text-align: center;
     }
     .redes {
         text-align: center;
@@ -210,23 +219,23 @@ main{
     }
     #face {
         height: 10px;
-        color: #4267B2;
+        color: $color-face;
     }
     #insta {
         height: 10px;
-        color: rgb(225, 48, 108);
+        color: $color-insta;
     }
     #yt {
         height: 10px;
-        color: #FF0000;
+        color: $color-youtube;
     }
     #wpp {
         height: 10px;
-        color: #25D366;
+        color: $color-whatsapp;
     }
     #twt {
         height: 10px;
-        color: #1da1f2;
+        color: $color-twitter;
     }
     #map {
         width: 20rem;

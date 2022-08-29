@@ -116,8 +116,7 @@ body {
       align-items: center; }
     .nosotros h1 {
       color: #fcfafa;
-      font-size: 2.6rem;
-      text-align: center; }
+      font-size: 2.6rem; }
     .nosotros .form {
       flex-direction: column;
       margin: 2rem 0 4rem;
@@ -134,6 +133,10 @@ body {
       background-color: #ecec6a;
       border-radius: 3px;
       padding: 3px; }
+    .nosotros #mail {
+      background-color: #ecec6a;
+      border-radius: 3px;
+      padding: 3px; }
     .nosotros #comentarios {
       background-color: #ecec6a;
       border-radius: 3px;
@@ -146,6 +149,10 @@ body {
       padding: 5px;
       margin: 1rem;
       background-color: #ecec6a; }
+    .nosotros .fa-brands {
+      padding: 50px;
+      font-size: 4rem;
+      text-align: center; }
     .nosotros .redes {
       text-align: center; }
     .nosotros .redes p {
