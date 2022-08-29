@@ -25,6 +25,7 @@ body {
           color: #383636;
           text-decoration: none;
           font-size: 1rem; }
+  /* inicio @media */
   main {
     background-color: #383636;
     flex-direction: column;
@@ -41,9 +42,21 @@ body {
     main .inicio .img011 {
       width: 100%;
       height: auto; }
+  /* fin inicio @media */
+  /* nosotros @media */
   .nosotros {
     grid-template-columns: auto;
-    grid-template-rows: repeat(5, auto); }
+    grid-template-rows: repeat(5, auto);
+    /* fin nosotros @media */
+    /* producto @media */
+    /* fin producto @media */
+    /* contacto @media */
+    /* formulario */
+    /* fin formulario */
+    /* redes */
+    /* fin redes */
+    /* fin contacto @media */
+    /* galeria @media */ }
     .nosotros .desc {
       grid-column: 1/2; }
     .nosotros .h1n {
@@ -217,9 +230,12 @@ body {
     .nosotros #imgg09 {
       grid-column: 1/2;
       padding: 20px; }
+  /* fin galeria @media */
+  /* footer @media */
   footer {
     background-color: #807c7c; }
     footer p {
       color: #fcfafa;
       font-size: 1rem;
-      text-align: center; } }
+      text-align: center; }
+  /* fin footer @media */ }
