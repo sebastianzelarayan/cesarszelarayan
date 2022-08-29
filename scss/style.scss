@@ -98,10 +98,10 @@ main{
         grid-column: 1/2;
         margin: 0px auto;
     }
-    /* fin nosotros @media */
+/* fin nosotros @media */
 
-    /* producto @media */
-    .productos{
+/* producto @media */
+.productos{
         grid-template-columns: auto;
         grid-template-rows: repeat(10, auto);
     }
@@ -158,10 +158,10 @@ main{
         margin: 29px;
         text-align: center;
     }
-    /* fin producto @media */
+/* fin producto @media */
 
-    /* contacto @media */
-    .contacto {
+/* contacto @media */
+.contacto {
         flex-direction: column;
         align-items: center;
     }
@@ -253,10 +253,10 @@ main{
         height: 20rem;
         border: 5px solid black;
     }
-    /* fin contacto @media */
+/* fin contacto @media */
 
-    /* galeria @media */
-    .galeria {
+/* galeria @media */
+.galeria {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(10, auto);
         gap: 20px;
@@ -308,9 +308,9 @@ main{
         padding: 20px;
     }
     }
-    /* fin galeria @media */
+/* fin galeria @media */
 
-    /* footer @media */
+/* footer @media */
 footer{
     background-color: $color-footer;
     p{
@@ -319,7 +319,7 @@ footer{
         text-align: center;
     }
 }
-    /* fin footer @media */
+/* fin footer @media */
 
 }
 
