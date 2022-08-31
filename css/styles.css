@@ -110,7 +110,7 @@ body {
       font-size: 2.6rem;
       text-align: center; }
     main .inicio h2 {
-      color: #fcfafa;
+      color: white;
       font-size: 1.2rem;
       text-align: center; }
     main .inicio .img011 {
@@ -173,22 +173,26 @@ body {
     .productos #h2p {
       grid-column: 1/2;
       font-size: 1rem;
-      text-align: center; }
+      text-align: center;
+      color: white; }
     .productos #h2p02 {
       grid-column: 1/2;
       font-size: 1rem;
       margin: 10px 0px;
-      text-align: center; }
+      text-align: center;
+      color: white; }
     .productos #pp01 {
       grid-column: 1/2;
       font-size: 0.8rem;
       margin: 29px;
-      text-align: center; }
+      text-align: center;
+      color: white; }
     .productos #pp02 {
       grid-column: 1/2;
       font-size: 0.8rem;
       margin: 29px;
-      text-align: center; }
+      text-align: center;
+      color: white; }
   /* fin producto @media */
   /* contacto @media */
   .contacto {
@@ -198,6 +202,8 @@ body {
     /* fin formulario */
     /* redes */
     /* fin redes */ }
+    .contacto h1 {
+      text-align: center; }
     .contacto .form {
       flex-direction: column;
       margin: 2rem 0 4rem;
@@ -269,7 +275,7 @@ body {
     height: auto; }
   #h2g {
     grid-column: 1/2;
-    color: #fcfafa;
+    color: white;
     font-size: 2.6rem;
     text-align: center; }
   #imgg01 {
@@ -316,7 +322,7 @@ body {
 footer {
   background-color: #807c7c; }
   footer p {
-    color: #fcfafa;
+    color: white;
     font-size: 1rem;
     text-align: center; }
 
@@ -348,7 +354,8 @@ footer {
       text-align: center; }
     .main h2 {
       font-size: 1.5rem;
-      text-align: center; }
+      text-align: center;
+      color: white; }
     .main #img11 {
       width: 100%;
       height: auto; }
@@ -367,7 +374,8 @@ footer {
     .nosotros #pnosotros {
       grid-column: 1/2;
       font-size: 1rem;
-      padding: 20px; }
+      padding: 20px;
+      color: white; }
     .nosotros .video {
       width: 90%;
       height: 22rem; }
@@ -407,12 +415,14 @@ footer {
     .productos #h2p {
       grid-column: 1/2;
       font-size: 1.5rem;
-      text-align: center; }
+      text-align: center;
+      color: white; }
     .productos #h2p02 {
       grid-column: 1/2;
       font-size: 1.5rem;
       margin: 10px 0px;
-      text-align: center; }
+      text-align: center;
+      color: white; }
     .productos #pp01 {
       grid-column: 1/2;
       font-size: 1rem;
@@ -420,7 +430,8 @@ footer {
     .productos #pp02 {
       grid-column: 1/2;
       font-size: 1rem;
-      margin: 29px; }
+      margin: 29px;
+      color: white; }
   /* fin producto @media */
   /* galeria @media */
   .galeria {
