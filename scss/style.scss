@@ -58,7 +58,7 @@ header {
     }
     #img11 {
         margin-top: 3rem;
-        height: 600px;
+        height: auto;
     }
 /* fin inicio */
 
@@ -515,6 +515,9 @@ main{
 
     /* redes */
     .fa-brands{
+        margin-left: 40px;
+        padding: 5px;
+        font-size: 3rem;
         text-align: center;
     }
     .redes {

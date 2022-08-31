@@ -43,7 +43,7 @@ h2 {
 
 #img11 {
   margin-top: 3rem;
-  height: 600px; }
+  height: auto; }
 
 /* fin inicio */
 /* nosotros */
@@ -422,6 +422,9 @@ footer {
       margin: 1rem;
       background-color: #ecec6a; }
     .contacto .fa-brands {
+      margin-left: 40px;
+      padding: 5px;
+      font-size: 3rem;
       text-align: center; }
     .contacto .redes {
       text-align: center; }
