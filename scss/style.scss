@@ -1,5 +1,9 @@
 @import "base/variables";
-
+@import "base/mapas";
+@import "base/listas";
+@import "base/mixin";
+@import "base/extend";
+@import  "base/condicionales";
 
 //NESTING
 body{
@@ -96,8 +100,7 @@ body{
     }
     /* fin redes */
     #map {
-        width: 20rem;
-        height: 20rem;
+        @include medidas(20rem, 20rem);
         border: 5px solid black;
     }
 }
@@ -146,7 +149,7 @@ main{
         text-align: center;
     }
     h2{
-        color: $color-tipografia;
+        color: nth($colores, 4);
         font-size: 1.2rem;
         text-align: center;
     }
@@ -232,24 +235,28 @@ main{
         grid-column: 1/2;
         font-size: 1rem;
         text-align: center;
+        color:nth($colores, 4)
     }
     #h2p02{
         grid-column: 1/2;
         font-size: 1rem;
         margin: 10px 0px;
         text-align: center;
+        color:nth($colores, 4)
     }
     #pp01{
         grid-column: 1/2;
         font-size: 0.8rem;
         margin: 29px;
         text-align: center;
+        color:nth($colores, 4)
     }
     #pp02{
         grid-column: 1/2;
         font-size: 0.8rem;
         margin: 29px;
         text-align: center;
+        color:nth($colores, 4)
     }
 }
 /* fin producto @media */
@@ -258,6 +265,9 @@ main{
 .contacto {
         flex-direction: column;
         align-items: center;
+        h1{
+            text-align: center;
+        }
     /* formulario */
     .form {
         flex-direction: column;
@@ -355,7 +365,7 @@ main{
     }
     #h2g {
         grid-column: 1/2;
-        color: $color-tipografia;
+        color:nth($colores, 4);
         font-size: 2.6rem;
         text-align: center;
     }
@@ -414,7 +424,7 @@ main{
 footer{
     background-color: $color-footer;
     p{
-        color: $color-tipografia;
+        color:nth($colores, 4);
         font-size: 1rem;
         text-align: center;
     }
@@ -461,6 +471,7 @@ header{
     h2 {
         font-size: 1.5rem;
         text-align: center;
+        color:nth($colores, 4);
     }
     #img11 {
         width: 100%;
@@ -487,6 +498,7 @@ header{
         grid-column: 1/2;
         font-size: 1rem;
         padding: 20px;
+        color:nth($colores, 4);
     }
     .video {
         width: 90%;
@@ -540,12 +552,14 @@ header{
         grid-column: 1/2;
         font-size: 1.5rem;
         text-align: center;
+        color:nth($colores, 4);
     }
     #h2p02 {
         grid-column: 1/2;
         font-size: 1.5rem;
         margin: 10px 0px;
         text-align: center;
+        color:nth($colores, 4);
     }
     #pp01 {
         grid-column: 1/2;
@@ -556,6 +570,7 @@ header{
         grid-column: 1/2;
         font-size: 1rem;
         margin: 29px;
+        color:nth($colores, 4);
     }
 }
 /* fin producto @media */
@@ -572,6 +587,7 @@ header{
     #h2g {
         grid-column: 1/2;
         text-align: center;
+        
     }
     #imgg01 {
         grid-column: 1/2;

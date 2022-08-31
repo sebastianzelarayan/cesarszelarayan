@@ -1,0 +1,15 @@
+// condicionales
+
+@mixin condiciones ($colores-dos) {
+    background-color: $colores-dos;
+
+    //condiciones
+    @if $colores-dos == orange{
+        border: 1px solid black;
+        padding: 1rem;
+    } @else {
+        border: 2px solid white;
+        padding: 4rem;
+    }
+    
+}
