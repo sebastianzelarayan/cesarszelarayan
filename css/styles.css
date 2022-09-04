@@ -217,12 +217,12 @@ h2 {
 .card:hover .back {
   transform: perspective(600px) rotateY(360deg); }
 
-#h1p {
+.h1p {
   font-size: 2rem;
   text-align: center; }
 
-#p1p {
-  font-size: 0.5rem;
+.p1p {
+  font-size: 1.2rem;
   text-align: center; }
 
 /* fin productos */
@@ -271,6 +271,9 @@ h2 {
     font-size: 4rem;
     text-align: center; }
   .contacto .redes {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
     margin: 3rem 0 0;
     text-align: center; }
   .contacto .redes p {
@@ -513,8 +516,12 @@ footer {
       transform: perspective(600px) rotateY(180deg); }
     .productos .card:hover .back {
       transform: perspective(600px) rotateY(360deg); }
-    .productos #p1p {
+    .productos .h1p {
+      text-align: center;
       font-size: 1.5rem; }
+    .productos .p1p {
+      text-align: center;
+      font-size: 1rem; }
   /* fin producto @media */
   /* contacto @media */
   .contacto {
@@ -564,6 +571,9 @@ footer {
       font-size: 3rem;
       text-align: center; }
     .contacto .redes {
+      display: flex;
+      justify-content: center;
+      font-size: 5rem;
       text-align: center; }
     .contacto p {
       font-size: 1.2rem; }
