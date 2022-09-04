@@ -273,9 +273,10 @@ header {
 
 /* busqueda */
 /* boostrap */
-.titulo-busqueda {
-    margin-top: 100px;
+.titulo-beneficios {
+    margin-top: 1rem;
     font-size: 2rem;
+    text-align: center;
     }
 
 .carousel-inner {
@@ -287,9 +288,12 @@ header {
     padding: 70px;
     font-size: 2rem;
 }
-.pbusqueda {
-    padding: 3rem;
-    font-size: 1.7rem;
+.ulbene{
+    margin-top: 20px;
+}
+
+.pbene{
+    text-align: center;
 }
 /* fin de boostrap */
 /* fin busqueda */
