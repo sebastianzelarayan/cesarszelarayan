@@ -234,47 +234,14 @@ header {
     .card:hover .back{
         transform: perspective(600px) rotateY(360deg);
     }
-    #h1p{
+    .h1p{
         font-size: 2rem;
         text-align: center;
     }
-    #p1p{
-        font-size: 0.5rem;
+    .p1p{
+        font-size: 1.2rem;
         text-align: center;
     }
-    // #h3p{
-    //     font-size: 2rem;
-    // }
-    // .imgp {
-    //     width: 22rem;
-    //     height: 16rem;
-    // }
-    // #imgp01 {
-    //     grid-column: 3/4;
-    // }
-    // #imgp02 {
-    //     grid-column: 2/3;
-    // }
-    // #imgp03 {
-    //     grid-column: 3/4;
-    // }
-    // #imgp04 {
-    //     grid-column: 1/2;
-    // }
-    // #imgp05 {
-    //     grid-column: 2/3;
-    // }
-    // #h1p {
-    //     grid-column: 2/3;
-    // }
-    // #h2p {
-    //     grid-column: 1/3;
-    //     font-size: 1.8rem;
-    // }
-    // #h2p02 {
-    //     grid-column: 1/2;
-    //     font-size: 1.8rem;
-    // }
 /* fin productos */
 
 /* contacto */
@@ -330,6 +297,9 @@ header {
         text-align: center;
     }
     .redes {
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
         margin: 3rem 0 0;
         text-align: center;
     }
@@ -631,66 +601,14 @@ main{
     .card:hover .back{
         transform: perspective(600px) rotateY(360deg);
     }
-    #p1p{
+    .h1p{
+        text-align: center;
         font-size: 1.5rem;
     }
-    // #h3p{
-    //     font-size: 2rem;
-    // }
-    // #imgp01{
-    //     grid-column: 1/2;
-        // margin: 20px 0px 20px 30px;
-    // }
-    // #imgp02{
-    //     grid-column: 1/2;
-    //     margin: 20px 0px 20px 30px;
-    // }
-    // #imgp03{
-    //     grid-column: 1/2;
-    //     margin: 0px 0px 20px 30px;
-    // }
-    // #imgp04{
-    //     grid-column: 1/2;
-    //     margin: 0px 0px 20px 30px;
-        
-    // }
-    // #imgp05{
-    //     grid-column: 1/2;
-    //     margin: 0px 0px 20px 30px;
-    // }
-    // #h1p{
-    //     grid-column: 1/2;
-    //     color: $color-tipografia;
-    //     font-size: 2.6rem;
-    //     text-align: center;
-    // }
-    // #h2p{
-    //     grid-column: 1/2;
-    //     font-size: 1rem;
-    //     text-align: center;
-    //     color:nth($colores, 4)
-    // }
-    // #h2p02{
-    //     grid-column: 1/2;
-    //     font-size: 1rem;
-    //     margin: 10px 0px;
-    //     text-align: center;
-    //     color:nth($colores, 4)
-    // }
-    // #pp01{
-    //     grid-column: 1/2;
-    //     font-size: 0.8rem;
-    //     margin: 29px;
-    //     text-align: center;
-    //     color:nth($colores, 4)
-    // }
-    // #pp02{
-    //     grid-column: 1/2;
-    //     font-size: 0.8rem;
-    //     margin: 29px;
-    //     text-align: center;
-    //     color:nth($colores, 4)
-    // }
+    .p1p{
+        text-align: center;
+        font-size: 1rem;
+    }
 }
 /* fin producto @media */
 
@@ -751,6 +669,9 @@ main{
         text-align: center;
     }
     .redes {
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
         text-align: center;
     }
     p {
