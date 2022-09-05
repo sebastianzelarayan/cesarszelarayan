@@ -6,6 +6,12 @@
 @import  "base/condicionales";
 
 //NESTING
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     min-height: 100vh;
@@ -33,6 +39,7 @@ header {
     background-color: $color-header;
     position: fixed;
     width: 100%;
+    z-index: 1000;
     }
     .hamburguesa {
         background-color: $color-header;
@@ -111,6 +118,7 @@ header {
         width: 400px;
         height: 200px;
         margin: 20px;
+        background-color: $color-main;
     }
     .card .face{
         position: absolute;
@@ -517,7 +525,7 @@ main{
 /* producto @media */
 .productos{
         grid-template-columns: auto;
-        grid-template-rows: repeat(10, auto);
+        grid-template-rows: repeat(7, auto);
     .imgp{
         width: 80%;
         height: auto;
@@ -577,7 +585,7 @@ main{
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
-        box-shadow: 0 5pk 10px yellow;
+        box-shadow: 0 5px 10px yellow;
     }
     .card .back .link{
         border-top: solid 1px #e5e28e;
@@ -962,54 +970,6 @@ header{
     #p1p{
         font-size: 1.5rem;
     }
-    // #imgp01 {
-    //     grid-column: 1/2;
-    //     margin-left: 70px;
-    // }
-    // #imgp02 {
-    //     grid-column: 1/2;
-    //     margin-left: 70px;
-    // }
-    // #imgp03 {
-    //     grid-column: 1/2;
-    //     margin-left: 70px;
-    // }
-    // #imgp04 {
-    //     grid-column: 1/2;
-    //     margin-left: 70px;
-    // }
-    // #imgp05 {
-    //     grid-column: 1/2;
-    //     margin-left: 70px;
-    // }
-    // #h1p {
-    //     grid-column: 1/2;
-    //     text-align: center;
-    // }
-    // #h2p {
-    //     grid-column: 1/2;
-    //     font-size: 1.5rem;
-    //     text-align: center;
-    //     color:nth($colores, 4);
-    // }
-    // #h2p02 {
-    //     grid-column: 1/2;
-    //     font-size: 1.5rem;
-    //     margin: 10px 0px;
-    //     text-align: center;
-    //     color:nth($colores, 4);
-    // }
-    // #pp01 {
-    //     grid-column: 1/2;
-    //     font-size: 1rem;
-    //     margin: 29px;
-    // }
-    // #pp02 {
-    //     grid-column: 1/2;
-    //     font-size: 1rem;
-    //     margin: 29px;
-    //     color:nth($colores, 4);
-    // }
 }
 /* fin producto @media */
 
