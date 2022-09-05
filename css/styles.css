@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 body {
   display: flex;
   min-height: 100vh;
@@ -19,7 +24,8 @@ body {
 header {
   background-color: #ecec6a;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 1000; }
 
 .hamburguesa {
   background-color: #ecec6a; }
@@ -93,7 +99,8 @@ h2 {
   position: relative;
   width: 400px;
   height: 200px;
-  margin: 20px; }
+  margin: 20px;
+  background-color: #383636; }
 
 .card .face {
   position: absolute;
@@ -446,7 +453,7 @@ footer {
   /* producto @media */
   .productos {
     grid-template-columns: auto;
-    grid-template-rows: repeat(10, auto); }
+    grid-template-rows: repeat(7, auto); }
     .productos .imgp {
       width: 80%;
       height: auto; }
@@ -499,7 +506,7 @@ footer {
       flex-direction: column;
       justify-content: space-between;
       text-align: center;
-      box-shadow: 0 5pk 10px yellow; }
+      box-shadow: 0 5px 10px yellow; }
     .productos .card .back .link {
       border-top: solid 1px #e5e28e;
       height: 50px;
