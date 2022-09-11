@@ -457,6 +457,21 @@ footer {
     .productos .imgp {
       width: 80%;
       height: auto; }
+    .productos .imgp01 {
+      grid-column: 1/2;
+      margin: 0px 0px 20px 30px; }
+    .productos .imgp02 {
+      grid-column: 1/2;
+      margin: 0px 0px 20px 30px; }
+    .productos .imgp03 {
+      grid-column: 1/2;
+      margin: 0px 0px 20px 30px; }
+    .productos .imgp04 {
+      grid-column: 1/2;
+      margin: 0px 0px 20px 30px; }
+    .productos .imgp0 {
+      grid-column: 1/2;
+      margin: 0px 0px 20px 30px; }
     .productos .card {
       position: relative;
       width: 300px;
@@ -610,43 +625,34 @@ footer {
   /* galeria @media */
   .galeria {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(10, auto);
+    grid-template-rows: repeat(9, auto);
     gap: 20px; }
   .imgg {
     width: 80%;
     height: 90%; }
-  #h2g {
+  #h1g {
     grid-column: 1/2;
     color: white;
     font-size: 2.6rem;
     text-align: center; }
   #imgg01 {
-    grid-column: 1/2;
-    margin: 0px 0px 20px 30px; }
+    grid-column: 1/2; }
   #imgg02 {
-    grid-column: 1/2;
-    margin: 0px 0px 20px 30px; }
+    grid-column: 1/2; }
   #imgg03 {
-    grid-column: 1/2;
-    margin: 0px 0px 20px 30px; }
+    grid-column: 1/2; }
   #imgg04 {
-    grid-column: 1/2;
-    margin: 0px 0px 20px 30px; }
+    grid-column: 1/2; }
   #imgg05 {
-    grid-column: 1/2;
-    margin: 0px 0px 20px 30px; }
+    grid-column: 1/2; }
   #imgg06 {
-    grid-column: 1/2;
-    margin: 0px 0px 20px 30px; }
+    grid-column: 1/2; }
   #imgg07 {
-    grid-column: 1/2;
-    margin: 0px 0px 20px 30px; }
+    grid-column: 1/2; }
   #imgg08 {
-    grid-column: 1/2;
-    margin: 0px 0px 20px 30px; }
+    grid-column: 1/2; }
   #imgg09 {
-    grid-column: 1/2;
-    margin: 0px 0px 20px 30px; } }
+    grid-column: 1/2; } }
 
 /* fin galeria @media */
 /* busqueda */

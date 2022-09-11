@@ -531,6 +531,26 @@ main{
         width: 80%;
         height: auto;
     }
+    .imgp01{
+        grid-column: 1/2;
+        margin: 0px 0px 20px 30px;
+    }
+    .imgp02{
+        grid-column: 1/2;
+        margin: 0px 0px 20px 30px;
+    }
+    .imgp03{
+        grid-column: 1/2;
+        margin: 0px 0px 20px 30px;
+    }
+    .imgp04{
+        grid-column: 1/2;
+        margin: 0px 0px 20px 30px;
+    }
+    .imgp0{
+        grid-column: 1/2;
+        margin: 0px 0px 20px 30px;
+    }
     .card{
         position: relative;
         width: 300px;
@@ -722,14 +742,14 @@ main{
 /* galeria @media */
 .galeria {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(10, auto);
+        grid-template-rows: repeat(9, auto);
         gap: 20px;
     }
     .imgg {
         width: 80%;
         height: 90%;
     }
-    #h2g {
+    #h1g {
         grid-column: 1/2;
         color:nth($colores, 4);
         font-size: 2.6rem;
@@ -737,39 +757,30 @@ main{
     }
     #imgg01 {
         grid-column: 1/2;
-        margin: 0px 0px 20px 30px;
     }
     #imgg02 {
         grid-column: 1/2;
-        margin: 0px 0px 20px 30px;
     }
     #imgg03 {
         grid-column: 1/2;
-        margin: 0px 0px 20px 30px;
     }
     #imgg04 {
         grid-column: 1/2;
-        margin: 0px 0px 20px 30px;
     }
     #imgg05 {
         grid-column: 1/2;
-        margin: 0px 0px 20px 30px;
     }
     #imgg06 {
         grid-column: 1/2;
-        margin: 0px 0px 20px 30px;
     }
     #imgg07 {
         grid-column: 1/2;
-        margin: 0px 0px 20px 30px;
     }
     #imgg08 {
         grid-column: 1/2;
-        margin: 0px 0px 20px 30px;
     }
     #imgg09 {
         grid-column: 1/2;
-        margin: 0px 0px 20px 30px;
     }
 }
 /* fin galeria @media */
