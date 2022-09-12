@@ -73,11 +73,12 @@ h2 {
 }
 
 .pini {
-    text-align: center;
+    font-size: 1.3rem;
     margin-top: 30px;
 }
 
 .pini01 {
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -96,7 +97,7 @@ h2 {
 }
 
 #pnosotros {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 40px;
 }
 .imgn{
@@ -447,6 +448,12 @@ footer {
             .img011 {
                 width: 100%;
             }
+            .pini{
+                font-size: 1rem;
+            }
+            .pini01{
+                font-size: 1rem;
+            }
         }
     }
     /* fin inicio @media */
@@ -611,14 +618,15 @@ footer {
 
     /* inicio @media */
     .main {
-        h2 {
-            font-size: 1.5rem;
-        }
-    /* fin main */
-    /* inicio */
         #img11 {
             width: 100%;
             height: auto;
+        }
+        .pini{
+            font-size: 1.2rem;
+        }
+        .pini01{
+            font-size: 1.2rem;
         }
     }
     /* fin inicio @media */

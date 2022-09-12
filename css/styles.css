@@ -51,10 +51,11 @@ h2 {
   border-radius: 10px; }
 
 .pini {
-  text-align: center;
+  font-size: 1.3rem;
   margin-top: 30px; }
 
 .pini01 {
+  font-size: 1.3rem;
   text-align: center; }
 
 /* fin inicio */
@@ -69,7 +70,7 @@ h2 {
   text-align: center; }
 
 #pnosotros {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 40px; }
 
 .imgn {
@@ -328,6 +329,10 @@ footer {
     font-size: 1.5rem; }
   main .inicio .img011 {
     width: 100%; }
+  main .inicio .pini {
+    font-size: 1rem; }
+  main .inicio .pini01 {
+    font-size: 1rem; }
   /* fin inicio @media */
   /* nosotros @media */
   .nosotros {
@@ -423,14 +428,13 @@ footer p {
 /* fin footer @media */
 @media only screen and (min-width: 560px) and (max-width: 767px) {
   /* inicio @media */
-  .main {
-    /* fin main */
-    /* inicio */ }
-    .main h2 {
-      font-size: 1.5rem; }
-    .main #img11 {
-      width: 100%;
-      height: auto; }
+  .main #img11 {
+    width: 100%;
+    height: auto; }
+  .main .pini {
+    font-size: 1.2rem; }
+  .main .pini01 {
+    font-size: 1.2rem; }
   /* fin inicio @media */
   /* nosotros @media */
   .nosotros {
