@@ -122,11 +122,16 @@ h2 {
 /* productos */
 .productos {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto repeat(4, 1fr);
+    grid-template-rows: 5rem repeat(2, 1fr);
     align-items: center;
     justify-items: center;
 }
-
+.h1p{
+    grid-column: 2/3;
+}
+.h2p{
+    grid-column: 1/2;
+}
 .imgp {
     width: 400px;
     height: 300px;
@@ -397,24 +402,16 @@ h2 {
     margin-top: 4rem;
     font-size: 3rem;
 }
-
-.carousel-inner {
-    margin-top: 10px;
-    padding: 30px;
-}
-
-.col-4 {
-    margin-top: 100px;
-    padding: 70px;
-    font-size: 2rem;
-}
-
+ 
 .ulbene {
+    font-size: 1.2rem;
     margin-top: 20px;
 }
 
 .pbene {
+    font-size: 1.2rem;
     text-align: center;
+    margin: 30px 0px;
 }
 
 /* fin de boostrap */
@@ -506,6 +503,9 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, auto);
 
+        .h1p{
+            grid-column: 1/2;
+        }
         .imgp {
             width: 200px;
             height: 200px;
@@ -597,10 +597,6 @@ footer {
     font-size: 2rem;
 }
 
-.parrafo {
-    padding: 30px;
-}
-
 /* fin de boostrap */
 /* fin beneficio */
 
@@ -673,8 +669,11 @@ footer {
     /* producto @media */
     .productos {
         grid-template-columns: auto;
-        grid-template-rows: repeat(10, auto);
+        grid-template-rows: repeat(5, auto);
 
+        .h1p{
+            grid-column: 1/2;
+        }
         .imgp {
             width: 80%;
             height: auto;
@@ -743,10 +742,6 @@ footer {
     /* boostrap */
     .titulo-beneficios {
         font-size: 2.5rem;
-
-        .parrafo {
-            padding: 30px;
-        }
     }
 
     /* fin de boostrap */
