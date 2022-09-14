@@ -314,6 +314,10 @@ h2 {
   text-align: center;
   margin: 30px 0px; }
 
+.mx-auto {
+  margin-bottom: 20px;
+  border-radius: 10px; }
+
 /* fin de boostrap */
 /* fin beneficio */
 /* footer */
