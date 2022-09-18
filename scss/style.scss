@@ -37,7 +37,7 @@ body {
 header {
     background-color: $color-header;
     position: fixed;
-    width: 100%;
+    width: $medida-principal;
     z-index: 1000;
 }
 /* fin barra de navegacion */
@@ -48,18 +48,22 @@ main {
     .inicio {
         h1{
             font-size: 3rem;
+            color: nth($colores, 4);
         }
         h2{
             font-size: 1.7rem;
+            color: nth($colores, 4);
         }
         .img011 {
             width: 100%;
         }
         .pini{
             font-size: 1.3rem;
+            color: nth($colores, 4);
         }
         .pini01{
             font-size: 1.3rem;
+            color: nth($colores, 4);
         }
     }
 }
@@ -122,15 +126,17 @@ main {
 /* productos */
 .productos {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 5rem repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
     align-items: center;
     justify-items: center;
 }
 .h1p{
-    grid-column: 2/3;
+    grid-column: 1/4;
+    color: nth($colores, 4);
 }
 .h2p{
-    grid-column: 1/2;
+    grid-column: 1/4;
+    color: nth($colores, 4);
 }
 .imgp {
     width: 400px;
@@ -200,6 +206,7 @@ main {
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 25px;
+    color: nth($colores, 4);
 }
 .card:hover .front {
     transform: perspective(600px) rotateY(180deg);
@@ -210,6 +217,7 @@ main {
 .h2p {
     font-size: 1.4rem;
     text-align: center;
+    color: nth($colores, 4);
 }
 /* fin productos */
 
@@ -322,6 +330,7 @@ main {
 }
 #h1g {
     grid-column: 2/3;
+    color: nth($colores, 4);
 }
 #imgg01 {
     grid-column: 1/2;
@@ -355,7 +364,7 @@ main {
 /* beneficios */
 /* boostrap */
 .titulo-beneficios {
-    margin-top: 4rem;
+    margin-top: 1rem;
     font-size: 2.5rem;
 }
 .ulbene {
@@ -365,7 +374,7 @@ main {
 .pbene {
     font-size: 1.2rem;
     text-align: center;
-    // margin: 30px 0px;
+    color: nth($colores, 4);
 }
 .mx-auto{
     margin-bottom: 20px;
@@ -376,9 +385,10 @@ main {
 
 /* footer */
 footer {
-    width: 100%;
+    width: $medida-principal;
     text-align: center;
     background-color: $color-footer;
+    color: nth($colores, 4);
     p {
         font-size: 1rem
     }
@@ -388,10 +398,13 @@ footer {
 @media only screen and (min-width:320px) and (max-width:559px) {
 
 /* inicio @media */
-    main {
+    .main {
         .inicio {
+            h1{
+                font-size: 2rem;
+            }
             h2{
-                font-size: 1.5rem;
+                font-size: 1rem;
             }
             .img011 {
                 width: 100%;
@@ -423,11 +436,11 @@ footer {
             padding: 20px;
         }
         .imgn {
-            width: 90%;
+            width: $medida-secundaria;
             height: auto;
         }
         .video {
-            width: 90%;
+            width: $medida-secundaria;
             height: auto;
         }
         #video1 {
@@ -444,8 +457,11 @@ footer {
 /* producto @media */
     .productos {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, auto);
+        grid-template-rows: repeat(7, auto);
         .h1p{
+            grid-column: 1/2;
+        }
+        .h2p{
             grid-column: 1/2;
         }
         .imgp {
@@ -513,17 +529,36 @@ footer {
     #imgg09 {
         grid-column: 1/2;
     }
-}
 /* fin galeria @media */
+    .titulo-beneficios{
+        font-size: 2rem;
+    }
+    .ulbene{
+        font-size: 1rem;
+    }
+    .pbene{
+        font-size: 1rem;
+    }
+}
+
 
 @media only screen and (min-width:560px) and (max-width:767px) {
 
+/* inicio @media */
+    .main{
+        .pini{
+            font-size: 1.1rem;
+        }
+        .pini01{
+            font-size: 1.1rem;
+        }
+    }
 /* nosotros @media */
     .nosotros {
         grid-template-columns: auto;
         grid-template-rows: repeat(3, auto);
         .imgn {
-            width: 90%;
+            width: $medida-secundaria;
             height: auto;
         }
         .desc {
@@ -536,7 +571,7 @@ footer {
             color: nth($colores, 4);
         }
         .video {
-            width: 90%;
+            width: $medida-secundaria;
             height: 22rem;
         }
         #video1 {
@@ -557,15 +592,12 @@ footer {
         .h1p{
             grid-column: 1/2;
         }
+        .h2p{
+            grid-column: 1/2;
+        }
         .imgp {
             width: 80%;
             height: auto;
-        }
-        .card {
-            position: relative;
-            width: 400px;
-            height: 200px;
-            margin: 20px;
         }
     }
 /* fin producto @media */
@@ -607,7 +639,7 @@ footer {
         }
     }
 }
- /* fin galeria @media */
+
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
@@ -616,7 +648,7 @@ footer {
         grid-template-columns: auto;
         grid-template-rows: repeat(3, auto);
         .imgn {
-            width: 90%;
+            width: $medida-secundaria;
             height: auto;
         }
         .desc {
@@ -641,6 +673,77 @@ footer {
             margin: 0px auto;
         }
     }
-/* fin nosotros @media */
-}
 
+    .productos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, auto);
+        .h1p{
+            grid-column: 1/4;
+        }
+        .h2p{
+            grid-column: 1/4;
+        }
+        .imgp {
+            width: 200px;
+            height: 200px;
+        }
+        .imgp01 {
+            grid-column: 1/2;
+        }
+        .imgp02 {
+            grid-column: 3/4;
+        }
+        .imgp03 {
+            grid-column: 1/2;
+        }
+        .imgp04 {
+            grid-column: 3/4;
+        }
+        .imgp05 {
+            grid-column: 1/2;
+        }
+        .card {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+/* fin nosotros @media */
+
+}
+@media only screen and (min-width:1024px) and (max-width:1350px) {
+    .productos {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(4, auto);
+        .h1p{
+            grid-column: 1/4;
+        }
+        .h2p{
+            grid-column: 1/4;
+        }
+        .imgp {
+            width: 300px;
+            height: 300px;
+        }
+        .imgp01 {
+            grid-column: 1/2;
+        }
+        .imgp02 {
+            grid-column: 3/4;
+        }
+        .imgp03 {
+            grid-column: 1/2;
+        }
+        .imgp04 {
+            grid-column: 3/4;
+        }
+        .imgp05 {
+            grid-column: 1/2;
+        }
+        .card {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+    }
+}
