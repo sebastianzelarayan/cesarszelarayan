@@ -303,7 +303,7 @@ h2 {
 /* boostrap */
 .titulo-beneficios {
   margin-top: 4rem;
-  font-size: 3rem; }
+  font-size: 2.5rem; }
 
 .ulbene {
   font-size: 1.2rem;
@@ -418,13 +418,6 @@ footer {
     grid-column: 1/2; } }
 
 /* fin galeria @media */
-/* beneficio */
-/* boostrap */
-.titulo-beneficios {
-  font-size: 2rem; }
-
-/* fin de boostrap */
-/* fin beneficio */
 @media only screen and (min-width: 560px) and (max-width: 767px) {
   /* inicio @media */
   .main #img11 {
@@ -501,10 +494,3 @@ footer {
       grid-column: 1/2; } }
 
 /* fin galeria @media */
-/* beneficio */
-/* boostrap */
-.titulo-beneficios {
-  font-size: 2.5rem; }
-
-/* fin de boostrap */
-/* fin beneficio */
