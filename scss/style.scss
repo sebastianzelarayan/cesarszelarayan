@@ -43,15 +43,25 @@ header {
 /* fin barra de navegacion */
 
 /* main */
-.main {
+main {
     margin: 4rem 1.5rem 2rem;
-}
-h1 {
-    font-size: 3rem;
-}
-h2 {
-    font-size: 1.7rem;
-    color: nth($colores, 4);
+    .inicio {
+        h1{
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 1.7rem;
+        }
+        .img011 {
+            width: 100%;
+        }
+        .pini{
+            font-size: 1.3rem;
+        }
+        .pini01{
+            font-size: 1.3rem;
+        }
+    }
 }
 /* fin main */
 
@@ -78,30 +88,34 @@ h2 {
 
 /* nosotros */
 .nosotros {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr auto;
-    gap: 70px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 50px;
 }
 .desc {
     grid-column: 1/5;
     text-align: center;
 }
 #pnosotros {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 40px;
 }
 .imgn{
+    width: 90%;
+    height: auto;
     border-radius: 10px;
 }
 .video {
-    height: 20rem;
-    width: 35rem;
+    width: 90%;
+    height: 15rem;
 }
 #video1 {
-    grid-column: 2/3;
+    grid-column: 1/2;
+    margin-left: 80px;
 }
 #video2 {
-    grid-column: 3/4;
+    grid-column: 2/3;
+    margin-left: 80px;
 }
 /* fin nosotros */
 
@@ -265,7 +279,7 @@ h2 {
             }
         }
         p{
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
         #face{
             height: 10px;
@@ -504,21 +518,6 @@ footer {
 
 @media only screen and (min-width:560px) and (max-width:767px) {
 
-/* inicio @media */
-    .main {
-        #img11 {
-            width: 100%;
-            height: auto;
-        }
-        .pini{
-            font-size: 1.2rem;
-        }
-        .pini01{
-            font-size: 1.2rem;
-        }
-    }
-/* fin inicio @media */
-
 /* nosotros @media */
     .nosotros {
         grid-template-columns: auto;
@@ -609,4 +608,39 @@ footer {
     }
 }
  /* fin galeria @media */
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    /* nosotros @media */
+    .nosotros {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, auto);
+        .imgn {
+            width: 90%;
+            height: auto;
+        }
+        .desc {
+            grid-column: 1/2;
+        }
+        #pnosotros {
+            grid-column: 1/2;
+            font-size: 1.2rem;
+            padding: 20px;
+            color: nth($colores, 4);
+        }
+        .video {
+            width: 70%;
+            height: 15rem;
+        }
+        #video1 {
+            grid-column: 1/2;
+            margin: 0px auto;
+        }
+        #video2 {
+            grid-column: 1/2;
+            margin: 0px auto;
+        }
+    }
+/* fin nosotros @media */
+}
 
