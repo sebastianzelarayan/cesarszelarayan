@@ -34,30 +34,25 @@ body {
 }
 
 /* barra de navegacio */
-
 header {
     background-color: $color-header;
     position: fixed;
     width: 100%;
     z-index: 1000;
 }
-
 /* fin barra de navegacion */
 
 /* main */
 .main {
     margin: 4rem 1.5rem 2rem;
 }
-
 h1 {
     font-size: 3rem;
 }
-
 h2 {
     font-size: 1.7rem;
     color: nth($colores, 4);
 }
-
 /* fin main */
 
 /* inicio */
@@ -65,24 +60,20 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
-
 #img11 {
     margin-top: 3rem;
     height: auto;
     border-radius: 10px;
 }
-
 .pini {
     font-size: 1.3rem;
     margin-top: 30px;
     text-align: center;
 }
-
 .pini01 {
     font-size: 1.3rem;
     text-align: center;
 }
-
 /* fin inicio */
 
 /* nosotros */
@@ -91,12 +82,10 @@ h2 {
     grid-template-rows: 1fr auto;
     gap: 70px;
 }
-
 .desc {
     grid-column: 1/5;
     text-align: center;
 }
-
 #pnosotros {
     font-size: 1.3rem;
     padding: 40px;
@@ -104,20 +93,16 @@ h2 {
 .imgn{
     border-radius: 10px;
 }
-
 .video {
     height: 20rem;
     width: 35rem;
 }
-
 #video1 {
     grid-column: 2/3;
 }
-
 #video2 {
     grid-column: 3/4;
 }
-
 /* fin nosotros */
 
 /* productos */
@@ -145,7 +130,6 @@ h2 {
     margin: 20px;
     background-color: $color-main;
 }
-
 .card .face {
     position: absolute;
     width: 100%;
@@ -155,19 +139,16 @@ h2 {
     overflow: hidden;
     transition: 0.5s;
 }
-
 .card .front {
     transform: perspective(400px) rotateY(0deg);
     box-shadow: $color-main;
 }
-
 .card .front img {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .card .front p {
     position: absolute;
     bottom: 0;
@@ -179,7 +160,6 @@ h2 {
     text-align: center;
     font-size: 20px;
 }
-
 .card .back {
     transform: perspective(600px) rotateY(180deg);
     background: rgb(3, 35, 54);
@@ -191,47 +171,38 @@ h2 {
     text-align: center;
     box-shadow: 0 5px 10px yellow;
 }
-
 .card .back .link {
     border-top: solid 1px #e5e28e;
     height: 50px;
     line-height: 50px;
 }
-
 .card .back .link a {
     color: white;
 }
-
 .card .back p {
     letter-spacing: 1px;
 }
-
 .pn {
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 25px;
 }
-
 .card:hover .front {
     transform: perspective(600px) rotateY(180deg);
 }
-
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
-
 .h2p {
     font-size: 1.4rem;
     text-align: center;
 }
-
 /* fin productos */
 
 /* contacto */
 .contacto {
     flex-direction: column;
     align-items: center;
-
     /* formulario */
     .form {
         flex-direction: column;
@@ -242,35 +213,29 @@ h2 {
         border: 2px solid $color-header;
         border-radius: 5px;
     }
-
     #nombre {
         background-color: $color-header;
         border-radius: 3px;
         padding: 3px;
     }
-
     #cel {
         background-color: $color-header;
         border-radius: 3px;
         padding: 3px;
     }
-
     #email {
         background-color: $color-header;
         border-radius: 3px;
         padding: 3px;
     }
-
     #comentarios {
         background-color: $color-header;
         border-radius: 3px;
         padding: 3px;
     }
-
     .buttons {
         padding-top: 20px;
     }
-
     .btn1 {
         border: 1px solid black;
         border-radius: 3px;
@@ -278,21 +243,17 @@ h2 {
         margin: 1rem;
         background-color: $color-header;
     }
-
     /* fin formulario */
-
     #map {
         @include medidas(20rem, 20rem);
         border: 5px solid black;
     }
 }
 
-    /* redes */
-
+/* redes */
     .redes{
         text-align: center;
         margin-top: 50px;
-
         a{
             .fa-brands {
                 padding: 50px;
@@ -303,37 +264,30 @@ h2 {
                 }
             }
         }
-
         p{
             font-size: 1.2rem;
         }
-
         #face{
             height: 10px;
             color: $color-face;
         }
-
         #insta{
             height: 10px;
             color: $color-insta;
         }
-
         #yt {
             height: 10px;
             color: $color-youtube;
         }
-
         #wpp {
             height: 10px;
             color: $color-whatsapp;
         }
-
         #twt {
             height: 10px;
             color: $color-twitter;
         }
     }
-
 /* fin contacto */
 
 /* galeria */
@@ -343,58 +297,45 @@ h2 {
     justify-items: center;
     gap: 30px;
 }
-
 .imgg:hover {
     scale: 1.1;
     transition: all 1s;
 }
-
 .imgg {
     width: 80%;
     height: 90%;
     border-radius: 5px;
 }
-
 #h1g {
     grid-column: 2/3;
 }
-
 #imgg01 {
     grid-column: 1/2;
 }
-
 #imgg02 {
     grid-column: 2/3;
 }
-
 #imgg03 {
     grid-column: 3/4;
 }
-
 #imgg04 {
     grid-column: 1/2;
 }
-
 #imgg05 {
     grid-column: 2/3;
 }
-
 #imgg06 {
     grid-column: 3/4;
 }
-
 #imgg07 {
     grid-column: 1/2;
 }
-
 #imgg08 {
     grid-column: 2/3;
 }
-
 #imgg09 {
     grid-column: 3/4;
 }
-
 /* fin galeria */
 
 /* beneficios */
@@ -403,41 +344,36 @@ h2 {
     margin-top: 4rem;
     font-size: 3rem;
 }
-
 .ulbene {
     font-size: 1.2rem;
     margin-top: 20px;
 }
-
 .pbene {
     font-size: 1.2rem;
     text-align: center;
     // margin: 30px 0px;
 }
-
 .mx-auto{
     margin-bottom: 20px;
     border-radius: 10px;
 }
-
 /* fin de boostrap */
 /* fin beneficio */
 
 /* footer */
-.footer {
+footer {
     width: 100%;
     text-align: center;
     background-color: $color-footer;
     p {
-        font-size: 1.5rem !important;
+        font-size: 1rem
     }
 }
-
 /* fin footer */
 
 @media only screen and (min-width:320px) and (max-width:559px) {
 
-    /* inicio @media */
+/* inicio @media */
     main {
         .inicio {
             h2{
@@ -454,56 +390,47 @@ h2 {
             }
         }
     }
-    /* fin inicio @media */
+/* fin inicio @media */
 
-    /* nosotros @media */
+/* nosotros @media */
     .nosotros {
         grid-template-columns: auto;
         grid-template-rows: repeat(3, auto);
-
         .desc {
             grid-column: 1/2;
         }
-
         .h1n {
             text-align: center;
             font-size: 2rem;
         }
-
         #pnosotros {
             grid-column: 1/2;
             font-size: 1rem;
             padding: 20px;
         }
-
         .imgn {
             width: 90%;
             height: auto;
         }
-
         .video {
             width: 90%;
             height: auto;
         }
-
         #video1 {
             grid-column: 1/2;
             margin: 0px auto;
         }
-
         #video2 {
             grid-column: 1/2;
             margin: 0px auto;
         }
     }
+/* fin nosotros @media */
 
-    /* fin nosotros @media */
-
-    /* producto @media */
+/* producto @media */
     .productos {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, auto);
-
         .h1p{
             grid-column: 1/2;
         }
@@ -511,27 +438,21 @@ h2 {
             width: 200px;
             height: 200px;
         }
-
         .imgp01 {
             grid-column: 1/2;
         }
-
         .imgp02 {
             grid-column: 1/2;
         }
-
         .imgp03 {
             grid-column: 1/2;
         }
-
         .imgp04 {
             grid-column: 1/2;
         }
-
         .imgp05 {
             grid-column: 1/2;
         }
-
         .card {
             position: relative;
             width: 220px;
@@ -540,56 +461,45 @@ h2 {
         }
     }
 
-    /* galeria @media */
+/* galeria @media */
     .galeria {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(9, auto);
         gap: 20px;
     }
-
     #h1g {
         grid-column: 1/2;
         color: nth($colores, 4);
         font-size: 2.6rem;
     }
-
     #imgg01 {
         grid-column: 1/2;
     }
-
     #imgg02 {
         grid-column: 1/2;
     }
-
     #imgg03 {
         grid-column: 1/2;
     }
-
     #imgg04 {
         grid-column: 1/2;
     }
-
     #imgg05 {
         grid-column: 1/2;
     }
-
     #imgg06 {
         grid-column: 1/2;
     }
-
     #imgg07 {
         grid-column: 1/2;
     }
-
     #imgg08 {
         grid-column: 1/2;
     }
-
     #imgg09 {
         grid-column: 1/2;
     }
 }
-
 /* fin galeria @media */
 
 /* beneficio */
@@ -597,23 +507,12 @@ h2 {
 .titulo-beneficios {
     font-size: 2rem;
 }
-
 /* fin de boostrap */
 /* fin beneficio */
 
-/* footer @media */
-.footer {
-    p {
-        // color: nth($colores, 4);
-        font-size: 1rem !important;
-    }
-}
-
-/* fin footer @media */
-
 @media only screen and (min-width:560px) and (max-width:767px) {
 
-    /* inicio @media */
+/* inicio @media */
     .main {
         #img11 {
             width: 100%;
@@ -626,52 +525,44 @@ h2 {
             font-size: 1.2rem;
         }
     }
-    /* fin inicio @media */
+/* fin inicio @media */
 
-    /* nosotros @media */
+/* nosotros @media */
     .nosotros {
         grid-template-columns: auto;
         grid-template-rows: repeat(3, auto);
-
         .imgn {
             width: 90%;
             height: auto;
         }
-
         .desc {
             grid-column: 1/2;
         }
-
         #pnosotros {
             grid-column: 1/2;
             font-size: 1.2rem;
             padding: 20px;
             color: nth($colores, 4);
         }
-
         .video {
             width: 90%;
             height: 22rem;
         }
-
         #video1 {
             grid-column: 1/2;
             margin: 0px auto;
         }
-
         #video2 {
             grid-column: 1/2;
             margin: 0px auto;
         }
     }
+/* fin nosotros @media */
 
-    /* fin nosotros @media */
-
-    /* producto @media */
+/* producto @media */
     .productos {
         grid-template-columns: auto;
         grid-template-rows: repeat(5, auto);
-
         .h1p{
             grid-column: 1/2;
         }
@@ -679,7 +570,6 @@ h2 {
             width: 80%;
             height: auto;
         }
-
         .card {
             position: relative;
             width: 400px;
@@ -687,73 +577,51 @@ h2 {
             margin: 20px;
         }
     }
+/* fin producto @media */
 
-    /* fin producto @media */
-
-    /* galeria @media */
+/* galeria @media */
     .galeria {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(9, auto);
         gap: 20px;
-
         #h1g {
             grid-column: 1/2;
         }
-
         #imgg01 {
             grid-column: 1/2;
         }
-
         #imgg02 {
             grid-column: 1/2;
         }
-
         #imgg03 {
             grid-column: 1/2;
         }
-
         #imgg04 {
             grid-column: 1/2;
         }
-
         #imgg05 {
             grid-column: 1/2;
         }
-
         #imgg06 {
             grid-column: 1/2;
         }
-
         #imgg07 {
             grid-column: 1/2;
         }
-
         #imgg08 {
             grid-column: 1/2;
         }
-
         #imgg09 {
             grid-column: 1/2;
         }
     }
+}
+ /* fin galeria @media */
 
-    /* fin galeria @media */
-
-    /* beneficio */
-    /* boostrap */
+/* beneficio */
+/* boostrap */
     .titulo-beneficios {
         font-size: 2.5rem;
     }
-
-    /* fin de boostrap */
-    /* fin beneficio */
-
-    /* footer @media */
-    .footer {
-        p{
-            font-size: 2rem;
-        } 
-    }
-
-    /* fin footer @media */
-}
+/* fin de boostrap */
+/* fin beneficio */
