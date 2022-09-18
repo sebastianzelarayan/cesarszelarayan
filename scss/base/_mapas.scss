@@ -3,14 +3,17 @@
 $standar: (
     // key - valor
     color-standar: black,
-    bg-standar: rgb(207, 207, 166),
-    border-satndar: 2px solid black,
+    bg-standar: rgb(236, 236, 106),
+    border-standar: 1px solid black,
+    border-radius: 3px,
     font-standar: 1.2rem,
+    padding-standar:5px,
+    margin-standar: 1rem,
 );
 
 $premium:(
     color-premium: gold,
     bg-premium: rgb(207, 207, 166),
     border-premium: 2px solid gold,
-    font-premium: 1.2rem
+    font-premium: 1.2rem,
 );
